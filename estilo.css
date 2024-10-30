@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: darkblue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.search-container {
+    margin: 10px 0;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+nav {
+    margin: 15px 0;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.produto {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 200px; /* Ajuste conforme necessário */
+    display: inline-block; /* Para exibir em linha */
+}
+
+.produto img {
+    width: 200px;
+    height: 200px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    transition: all 0.3s ease-in-out;
+
+
+}
+
+
+button {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #218838; 
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: darkblue;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
